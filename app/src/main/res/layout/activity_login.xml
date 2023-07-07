@@ -36,7 +36,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline_midle">
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/til_email"
+            android:id="@+id/tilemail"
             android:layout_marginHorizontal="16dp"
             android:layout_marginVertical="8.dp"
             android:layout_width="match_parent"
@@ -54,6 +54,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="16dp"
